@@ -4,7 +4,7 @@ import TechChip from './TechChip.jsx';
 
 export default function ProjectCard({ project }) {
   return (
-    <div>
+    <div className="project-card">
       <div>
         <img src={project.imageURL} alt="" />
       </div>
