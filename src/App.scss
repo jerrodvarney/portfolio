@@ -72,6 +72,9 @@ body {
 
 // LEFT SIDE //
 #bio {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	max-height: 100vh;
 	padding: 6rem 0;
 	position: sticky;
@@ -79,6 +82,7 @@ body {
 	width: 50%;
 
 	h1 {
+		margin-left: -.35rem;
 		font-size: 48px;
 		font-weight: 700;
 	}
@@ -104,6 +108,18 @@ body {
   letter-spacing: .2em;
 }
 
+.social-icon {
+	fill: #94A4B8;
+	margin-right: 1rem;
+	stroke: #94A4B8;
+}
+
+.social-icon:hover {
+	cursor: pointer;
+	fill: #E2E8F0;
+	stroke: #E2E8F0;
+}
+
 // RIGHT SIDE //
 #content {
 	color: #94A4B8;
@@ -111,4 +127,9 @@ body {
 	line-height: 1.5rem;
 	padding: 6rem 0;
 	width: 50%;
+}
+
+.project-pic {
+	border-radius: 3px;
+	width: 100px;
 }

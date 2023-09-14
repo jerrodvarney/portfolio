@@ -6,7 +6,7 @@ export default function ProjectCard({ project }) {
   return (
     <div className="project-card">
       <div>
-        <img src={project.imageURL} alt="" />
+        <img className="project-pic" src={project.imageURL} alt="" />
       </div>
       <div>
         <h3>

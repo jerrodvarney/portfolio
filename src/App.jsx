@@ -13,12 +13,14 @@ export default function App() {
   return (
     <div id="main">
       <div id="bio">
-        <h1 id="name">Jerrod Varney</h1>
-        <h2 id="tagline">Full Stack Software Engineer</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Vivamus tempor.
-        </p>
+        <div id="info">
+          <h1 id="name">Jerrod Varney</h1>
+          <h2 id="tagline">Full Stack Software Engineer</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Vivamus tempor.
+          </p>
+        </div>
         <Nav />
         <Social />
       </div>
