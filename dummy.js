@@ -7,6 +7,20 @@ export default {
       technologies: ['React', 'Express', 'PostgreSQL'],
       projectLink: 'google.com',
     },
+    {
+      imageURL: 'https://www.scnsoft.com/blog-pictures/software-development-outsourcing/plan-your-project-with-your-software-development-methodology.png',
+      title: 'Test Project',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper libero nec neque volutpat, id tristique ante blandit. Fusce dignissim erat vitae augue interdum vestibulum.',
+      technologies: ['React', 'Express', 'PostgreSQL'],
+      projectLink: 'google.com',
+    },
+    {
+      imageURL: 'https://www.scnsoft.com/blog-pictures/software-development-outsourcing/plan-your-project-with-your-software-development-methodology.png',
+      title: 'Test Project',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper libero nec neque volutpat, id tristique ante blandit. Fusce dignissim erat vitae augue interdum vestibulum.',
+      technologies: ['React', 'Express', 'PostgreSQL'],
+      projectLink: 'google.com',
+    },
   ],
   experiences: [
     {
@@ -16,7 +30,7 @@ export default {
       company: 'Astera Labs',
       companySite: 'https://www.asteralabs.com/',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper libero nec neque volutpat, id tristique ante blandit. Fusce dignissim erat vitae augue interdum vestibulum.',
-      technologies: ['React', 'Express', 'PostgreSQL', 'Python', 'AWS'],
+      technologies: ['React', 'Express', 'PostgreSQL', 'Python', 'Express', 'PostgreSQL', 'AWS', 'React'],
     },
     {
       startDate: '2020',
@@ -26,6 +40,15 @@ export default {
       companySite: 'https://www.3-peak.com/',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper libero nec neque volutpat, id tristique ante blandit. Fusce dignissim erat vitae augue interdum vestibulum.',
       technologies: ['Wordpress', 'Express', 'PostgreSQL', 'Python', 'AWS'],
+    },
+    {
+      startDate: '2021',
+      endDate: 'MAR 2022',
+      title: 'Tour Guide',
+      company: 'MaxTour',
+      companySite: 'https://www.maxtour.co',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper libero nec neque volutpat, id tristique ante blandit. Fusce dignissim erat vitae augue interdum vestibulum.',
+      technologies: ['Problem Solving', 'Communication'],
     },
   ],
 };

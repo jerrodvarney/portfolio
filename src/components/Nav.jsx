@@ -5,22 +5,22 @@ const changeNavSelect = (event) => {
   const prevSelect = document.querySelectorAll('.nav-select');
   prevSelect[0].classList.remove('nav-select');
 
-  const { target } = event;
-  target.classList.add('nav-select');
+  const closest = event.target.closest('.nav-link');
+  closest.classList.add('nav-select');
 };
 
 export default function Nav() {
   return (
     <div id="nav">
-      <a href="#about" className="nav-select" onClick={changeNavSelect}>
+      <a href="#about" className="nav-link nav-select" onClick={changeNavSelect}>
         <span className="nav-line" />
         <span className="nav-text">ABOUT</span>
       </a>
-      <a href="#projects" onClick={changeNavSelect}>
+      <a href="#projects" className="nav-link" onClick={changeNavSelect}>
         <span className="nav-line" />
         <span className="nav-text">PROJECTS</span>
       </a>
-      <a href="#experience" onClick={changeNavSelect}>
+      <a href="#experience" className="nav-link" onClick={changeNavSelect}>
         <span className="nav-line" />
         <span className="nav-text">EXPERIENCE</span>
       </a>

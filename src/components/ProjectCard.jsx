@@ -1,21 +1,25 @@
 import React from 'react';
-import { FaExternalLinkAlt } from 'react-icons/fa';
-import TechChip from './TechChip.jsx';
+import { FiArrowUpRight } from 'react-icons/fi';
+import TechChips from './TechChips.jsx';
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="project-card">
-      <div>
-        <img className="project-pic" src={project.imageURL} alt="" />
+    <a className="info-card-link" href={project.projectLink} target="_blank" rel="noreferrer">
+      <div className="info-card-highlight-box">
+        <div className="project-card info-card">
+          <div className="info-card-left">
+            <img className="project-pic" src={project.imageURL} alt="" />
+          </div>
+          <div className="info-card-main">
+            <h3>
+              {project.title}
+              <FiArrowUpRight className="info-card-title-icon" />
+            </h3>
+            <p>{project.description}</p>
+            <TechChips tech={project.technologies} />
+          </div>
+        </div>
       </div>
-      <div>
-        <h3>
-          {project.title}
-          <FaExternalLinkAlt />
-        </h3>
-        <p>{project.description}</p>
-        {project.technologies.map((tech) => <TechChip tech={tech} />)}
-      </div>
-    </div>
+    </a>
   );
 }

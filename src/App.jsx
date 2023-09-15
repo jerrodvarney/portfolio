@@ -17,10 +17,10 @@ export default function App() {
           <h1>Jerrod Varney</h1>
           <h2>Full Stack Software Engineer</h2>
           <p>
-            Binary bard crafting tales of software wonders and user delight.
+            Digital architect weaving code into technological symphonies, one line at a time.
           </p>
+          <Nav />
         </div>
-        <Nav />
         <Social />
       </div>
       <div id="content">
