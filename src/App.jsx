@@ -14,11 +14,10 @@ export default function App() {
     <div id="main">
       <div id="bio">
         <div id="info">
-          <h1 id="name">Jerrod Varney</h1>
-          <h2 id="tagline">Full Stack Software Engineer</h2>
+          <h1>Jerrod Varney</h1>
+          <h2>Full Stack Software Engineer</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Vivamus tempor.
+            Binary bard crafting tales of software wonders and user delight.
           </p>
         </div>
         <Nav />
@@ -38,6 +37,10 @@ export default function App() {
         </div>
         <Projects projects={projects} />
         <Experience experiences={experiences} />
+        <footer>
+          Coded by yours truly in Visual Studio Code!
+          Built with React and custom SCSS.
+        </footer>
       </div>
     </div>
   );
