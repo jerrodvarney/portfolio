@@ -4,7 +4,7 @@ import TechChip from './TechChip.jsx';
 
 export default function ExpCard({ exp }) {
   return (
-    <div>
+    <div className="exp-card">
       <div>
         <span>
           {exp.startDate}

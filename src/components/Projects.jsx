@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard.jsx';
 
 export default function Projects({ projects }) {
   return (
-    <div>
+    <div id="projects">
       {projects.map((project) => <ProjectCard project={project} key={project.title} />)}
     </div>
   );

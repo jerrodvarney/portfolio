@@ -47,7 +47,154 @@ table {
 	border-spacing: 0;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 // AFTER CSS RESET //
+:root {
+	--text-color: #94A4B8;
+	--nav-text-color: #64758B;
+	--bg-color: #0F172A;
+	--highlight-color: #E2E8F0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
+	background-color: var(--bg-color);
+	color: var(--highlight-color);
   font-family: 'Inter', sans-serif;
+}
+
+#root {
+	display: flex;
+	justify-content: center;
+}
+
+#main {
+	display: flex;
+	max-width: 1280px;
+	padding: 0 6rem;
+	width: 100vw;
+}
+
+// LEFT SIDE //
+#bio {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	max-height: 100vh;
+	padding: 6rem 0;
+	position: sticky;
+	top: 0;
+	width: 50%;
+
+	h1 {
+		margin-left: -.35rem;
+		font-size: 48px;
+		font-weight: 700;
+	}
+
+	h2 {
+		font-size: 20px;
+		margin: 1em 0;
+	}
+
+	p {
+		color: var(--text-color);
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 1.5em;
+		max-width: 20em;
+	}
+}
+
+#nav {
+	display: flex;
+	flex-direction: column;
+	font-size: 12px;
+	font-weight: 700;
+  letter-spacing: .2em;
+
+	a {
+		align-items: center;
+		color: var(--nav-text-color);
+		display: flex;
+		padding: .75rem 0;
+		text-decoration: none;
+		width: 40%;
+
+		&:hover {
+			cursor: pointer;
+			color: var(--highlight-color);
+
+			.nav-line {
+				background-color: var(--highlight-color);
+				width: 4rem;
+			}
+		}
+	}
+}
+
+.nav-line {
+	background-color: var(--nav-text-color);
+	height: 1px;
+	margin-right: 1rem;
+	transition: width .3s;
+	width: 2rem;
+}
+
+.nav-select {
+	.nav-line {
+		background-color: var(--highlight-color);
+		width: 4rem;
+	}
+
+	.nav-text {
+		color: var(--highlight-color);
+	}
+}
+
+.social-icon {
+	fill: var(--text-color);
+	margin-right: 1.25rem;
+	stroke: var(--text-color);
+
+	&:hover {
+		cursor: pointer;
+		fill: var(--highlight-color);
+		stroke: var(--highlight-color);
+	}
+}
+
+// RIGHT SIDE //
+#content {
+	color: var(--text-color);
+	flex: 1;
+	line-height: 1.5rem;
+	padding: 6rem 0;
+	width: 50%;
+}
+
+.project-pic {
+	border-radius: 3px;
+	width: 100px;
+}
+
+#about {
+	margin-bottom: 9rem;
+	scroll-margin-top: 6rem;
+}
+
+#projects {
+	margin-bottom: 9rem;
+	scroll-margin-top: 6rem;
+}
+
+#experience {
+	margin-bottom: 9rem;
+	scroll-margin-top: 6rem;
 }
