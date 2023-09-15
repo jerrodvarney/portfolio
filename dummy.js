@@ -10,8 +10,8 @@ export default {
   ],
   experiences: [
     {
-      startDate: 'May',
-      endDate: 'September 2023',
+      startDate: 'MAY',
+      endDate: 'SEPT 2023',
       title: 'DevOps Intern',
       company: 'Astera Labs',
       companySite: 'https://www.asteralabs.com/',
@@ -19,8 +19,8 @@ export default {
       technologies: ['React', 'Express', 'PostgreSQL', 'Python', 'AWS'],
     },
     {
-      startDate: 'May 2020',
-      endDate: 'November 2022',
+      startDate: '2020',
+      endDate: 'NOV 2022',
       title: 'Web Developer',
       company: 'Peak Performance Partners',
       companySite: 'https://www.3-peak.com/',
