@@ -52,9 +52,20 @@ table {
 }
 
 // AFTER CSS RESET //
+:root {
+	--text-color: #94A4B8;
+	--nav-text-color: #64758B;
+	--bg-color: #0F172A;
+	--highlight-color: #E2E8F0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
 body {
-	background-color: #0F172A;
-	color: #E2E8F0;
+	background-color: var(--bg-color);
+	color: var(--highlight-color);
   font-family: 'Inter', sans-serif;
 }
 
@@ -93,7 +104,7 @@ body {
 	}
 
 	p {
-		color: #94A4B8;
+		color: var(--text-color);
 		font-size: 16px;
 		font-weight: 300;
 		line-height: 1.5em;
@@ -102,27 +113,66 @@ body {
 }
 
 #nav {
-	color: #64758B;
+	display: flex;
+	flex-direction: column;
 	font-size: 12px;
 	font-weight: 700;
   letter-spacing: .2em;
+
+	a {
+		align-items: center;
+		color: var(--nav-text-color);
+		display: flex;
+		padding: .75rem 0;
+		text-decoration: none;
+		width: 40%;
+
+		&:hover {
+			cursor: pointer;
+			color: var(--highlight-color);
+
+			.nav-line {
+				background-color: var(--highlight-color);
+				width: 4rem;
+			}
+		}
+	}
+}
+
+.nav-line {
+	background-color: var(--nav-text-color);
+	height: 1px;
+	margin-right: 1rem;
+	transition: width .3s;
+	width: 2rem;
+}
+
+.nav-select {
+	.nav-line {
+		background-color: var(--highlight-color);
+		width: 4rem;
+	}
+
+	.nav-text {
+		color: var(--highlight-color);
+	}
 }
 
 .social-icon {
-	fill: #94A4B8;
-	margin-right: 1rem;
-	stroke: #94A4B8;
-}
+	fill: var(--text-color);
+	margin-right: 1.25rem;
+	stroke: var(--text-color);
 
-.social-icon:hover {
-	cursor: pointer;
-	fill: #E2E8F0;
-	stroke: #E2E8F0;
+	&:hover {
+		cursor: pointer;
+		fill: var(--highlight-color);
+		stroke: var(--highlight-color);
+	}
 }
 
 // RIGHT SIDE //
 #content {
-	color: #94A4B8;
+	color: var(--text-color);
 	flex: 1;
 	line-height: 1.5rem;
 	padding: 6rem 0;
@@ -132,4 +182,19 @@ body {
 .project-pic {
 	border-radius: 3px;
 	width: 100px;
+}
+
+#about {
+	margin-bottom: 9rem;
+	scroll-margin-top: 6rem;
+}
+
+#projects {
+	margin-bottom: 9rem;
+	scroll-margin-top: 6rem;
+}
+
+#experience {
+	margin-bottom: 9rem;
+	scroll-margin-top: 6rem;
 }
