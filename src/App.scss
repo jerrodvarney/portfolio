@@ -126,14 +126,14 @@ body {
 	flex-direction: column;
 	font-size: 12px;
 	font-weight: 700;
-  letter-spacing: .2rem;
+  letter-spacing: 1px;
 	margin-top: 4rem;
 
 	a {
 		align-items: center;
 		color: var(--nav-text-color);
 		display: flex;
-		padding: .75rem 0;
+		padding: .8rem 0;
 		text-decoration: none;
 		width: 40%;
 
@@ -168,10 +168,15 @@ body {
 	}
 }
 
+#social {
+	align-items: center;
+	display: flex;
+	gap: 1.25rem;
+	margin-top: 2rem;
+}
+
 .social-icon {
 	fill: var(--text-color);
-	margin-right: 1.25rem;
-	margin-top: 2rem;
 	stroke: var(--text-color);
 
 	&:hover {
@@ -184,13 +189,20 @@ body {
 // RIGHT SIDE //
 #content {
 	color: var(--text-color);
-	line-height: 1.5;
+	line-height: 1.75;
 	overflow: visible;
 	padding: 6rem 0;
 	width: 50%;
 }
 
-#about,
+#about {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;;
+	margin-bottom: 9rem;
+	scroll-margin-top: 6rem;
+}
+
 #projects,
 #experience {
 	display: flex;
@@ -217,8 +229,8 @@ body {
   left: -1.5rem;
   right: -1.5rem;
   bottom: -1rem;
-  background-color: #16223AB3; /* Dark background color */
-  opacity: 0; /* Initially hidden */
+  background-color: #16223AB3;
+  opacity: 0;
   transition: opacity 0.2s ease-in-out;
   z-index: -1;
 }
@@ -234,7 +246,7 @@ body {
 
 	h3 {
 		color: var(--highlight-color);
-		margin-bottom: .75rem;
+		margin-bottom: .5rem;
 	}
 
 	p {
