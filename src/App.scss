@@ -195,7 +195,7 @@ body {
 #experience {
 	display: flex;
 	flex-direction: column;
-	gap: 3rem;
+	gap: 3.5rem;
 	margin-bottom: 9rem;
 	scroll-margin-top: 6rem;
 }
@@ -203,19 +203,34 @@ body {
 
 .info-card-link {
 	color: var(--text-color);
+	position: relative;
 	text-decoration: none;
 }
 
-.info-card-highlight-box:hover {
-	// background-color: blue;
-	// bottom: -1rem;
-	// top: -1rem;
-	// left: -1rem;
-	// right: -1rem;
+.info-card::before {
+	border-top: .5px solid #E2E8F01A;
+	border-radius: .375rem;
+	box-shadow: .5px .5px 2px #0000001A;
+	content: '';
+  position: absolute;
+  top: -1rem;
+  left: -1.5rem;
+  right: -1.5rem;
+  bottom: -1rem;
+  background-color: #16223AB3; /* Dark background color */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.2s ease-in-out;
+  z-index: -1;
+}
+
+.info-card:hover::before {
+	opacity: 1;
 }
 
 .info-card {
+	position: relative;
 	display: flex;
+	z-index: 1;
 
 	h3 {
 		color: var(--highlight-color);
