@@ -1,5 +1,5 @@
 import React from 'react';
-import ExpCard from './ExpCard.jsx';
+import ExpCard from '../components/ExpCard.jsx';
 
 export default function Experience({ experiences }) {
   return (

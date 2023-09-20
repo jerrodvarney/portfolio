@@ -1,9 +1,9 @@
 import React from 'react';
 import Nav from './components/Nav.jsx';
-import Social from './components/Social.jsx';
-import About from './components/About.jsx';
-import Projects from './components/Projects.jsx';
-import Experience from './components/Experience.jsx';
+import Social from './sections/Social.jsx';
+import About from './sections/About.jsx';
+import Projects from './sections/Projects.jsx';
+import Experience from './sections/Experience.jsx';
 import './App.scss';
 
 import myInfo from '../myInfo';
