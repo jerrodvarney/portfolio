@@ -5,14 +5,14 @@ export default {
   projects: [
     {
       imageURL: 'https://user-images.githubusercontent.com/116389520/218281801-8086f80b-8134-4d37-ba6e-0f6f936bba89.jpg',
-      title: 'Superior- Overview',
+      title: 'Superior · Overview Section',
       description: 'A redesigned product detail page for an ecommerce site completed in an agile group of 4. Overview section allows the user to add to cart, add to wishlist, view and inspect galleries of the featured item, and select from its various styles.',
       technologies: ['React', 'Express', 'HTML', 'CSS', 'RESTful API'],
       projectLink: 'https://github.com/jerrodvarney/superior',
     },
     {
       imageURL: 'https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      title: 'Harper Woodward',
+      title: 'Harper Woodward · Streaming and Chat',
       description: 'Portfolio site for an artist with Authentication, Payment Processing, Live Streaming, and Live Chat; built with an agile team of 7. Implemented one-to-many live-streaming and live-chat functionality with MediaSoup, WebRTC, and Socket.io - capable of 500 simultaneous connections. Coded Express signaling server to support streaming and chat capabilities.',
       technologies: ['React', 'Express', 'WebRTC', 'Socket.io', 'MediaSoup'],
       projectLink: 'https://github.com/jerrodvarney/Harper-Woodward',
