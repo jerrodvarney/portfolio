@@ -5,7 +5,7 @@ export default {
   projects: [
     {
       imageURL: 'https://user-images.githubusercontent.com/116389520/218281801-8086f80b-8134-4d37-ba6e-0f6f936bba89.jpg',
-      title: 'Superior - Overview',
+      title: 'Superior- Overview',
       description: 'A redesigned product detail page for an ecommerce site completed in an agile group of 4. Overview section allows the user to add to cart, add to wishlist, view and inspect galleries of the featured item, and select from its various styles.',
       technologies: ['React', 'Express', 'HTML', 'CSS', 'RESTful API'],
       projectLink: 'https://github.com/jerrodvarney/superior',
