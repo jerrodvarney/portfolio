@@ -54,6 +54,7 @@ table {
 // AFTER CSS RESET //
 :root {
 	--text-color: #94A4B8;
+	--card-bg: #94A4B80D;
 	--nav-text-color: #64758B;
 	--bg-color: #0F172A;
 	--bg-transparency: #0F172ABF;
@@ -62,6 +63,7 @@ table {
 	--color-pop-contrast: #114E4A;
 	--tech-chip-bg: #2DD4BF1A;
 	--pic-border: #E2E8F026;
+	--flashlight: red;
 }
 
 ::selection {
@@ -89,6 +91,7 @@ body {
 	max-width: 1280px;
 	padding: 0 6rem;
 	width: 100vw;
+	z-index: 2;
 
 	@media(max-width: 1024px) {
 		flex-direction: column;
@@ -99,17 +102,6 @@ body {
 		padding: 0 1.5rem;
 	}
 }
-
-// #gradient-layer {
-	// background: linear-gradient(transparent, transparent), radial-gradient(circle at center, transparent 0%, rgba(255, 255, 255, 0.2) 100%);
-  // background-blend-mode: multiply;
-	// position: fixed;
-	// top: 0;
-	// left: 0;
-	// height: 100%;
-	// width: 100%;
-	// z-index: -1;
-// }
 
 // LEFT SIDE //
 #bio {
@@ -310,9 +302,9 @@ body {
   left: -1.5rem;
   right: -1.5rem;
   bottom: -1rem;
-  background-color: #16223AB3;
+  background-color: var(--card-bg);
   opacity: 0;
-  transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
   z-index: -1;
 }
 
@@ -386,6 +378,7 @@ body {
 
 		.project-pic {
 			border-color: gray;
+			transition: border-color 0.1s ease-in-out;
 		}
 	}
 }

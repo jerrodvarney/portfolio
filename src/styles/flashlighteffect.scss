@@ -1,0 +1,17 @@
+.cursor {
+  position: fixed;
+  width: 900px;
+  height: 900px;
+  background: radial-gradient(#0047AB33 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  @media(max-width: 1024px) {
+    display: none;
+  }
+}

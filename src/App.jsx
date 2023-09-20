@@ -4,7 +4,8 @@ import Social from './sections/Social.jsx';
 import About from './sections/About.jsx';
 import Projects from './sections/Projects.jsx';
 import Experience from './sections/Experience.jsx';
-import './App.scss';
+import FlashlightEffect from './components/FlashlightEffect.jsx';
+import './styles/app.scss';
 
 import myInfo from '../myInfo';
 
@@ -13,7 +14,7 @@ const { experiences, projects, about } = myInfo;
 export default function App() {
   return (
     <>
-      {/* <div id="gradient-layer" /> */}
+      <FlashlightEffect />
       <div id="main">
         <div id="bio">
           <div id="info">
