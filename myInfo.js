@@ -60,7 +60,7 @@ export default {
       company: 'MaxTour',
       companySite: 'https://www.maxtour.co',
       description: 'Guided groups to iconic sites, honing communication, organizational, and adaptability skills. Excelled in delivering exceptional experiences and expertly coordinated trips. Garnered 50+ 5-star reviews, propelling MaxTour to TripAdvisor\'s #1 spot for tours in Las Vegas.',
-      technologies: ['Problem Solving', 'Communication', 'Leadership', 'Adaptability'],
+      technologies: ['Problem Solving', 'Communication', 'Leadership', 'Adaptability', 'Organizational Skills'],
     },
   ],
 };

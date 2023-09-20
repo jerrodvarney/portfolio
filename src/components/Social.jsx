@@ -8,7 +8,7 @@ export default function Social() {
         <FaGithub className="social-icon" size="1.6rem" />
       </a>
       <a href="https://www.instagram.com/jerrod.nv" target="_blank" rel="noreferrer">
-        <FaInstagram className="social-icon" size="1.6rem" />
+        <FaInstagram className="social-icon" size="1.75rem" />
       </a>
       <a href="https://www.linkedin.com/in/jerrodvarney/" target="_blank" rel="noreferrer">
         <FaLinkedin className="social-icon" size="1.6rem" />
