@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import FlashlightEffect from './components/FlashlightEffect.jsx';
 import Bio from './sections/Bio.jsx';
 import About from './sections/About.jsx';
@@ -38,6 +39,7 @@ export default function App() {
 
   return (
     <>
+      <Analytics />
       <FlashlightEffect />
       <div id="main">
         <Bio />
