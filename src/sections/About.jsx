@@ -23,10 +23,7 @@ export default function About() {
         .
       </p>
       <p>
-        When I'm not behind the computer, you can probably find me mountain biking, gaming with friends, spending time with my wife and daughter, or eating
-        {' '}
-        <span id="yay-sushi-cursor">tasty sushi</span>
-        !
+        When I'm not behind the computer, you can probably find me mountain biking, gaming with friends, spending time with my wife and daughter, or eating tasty sushi!
       </p>
     </section>
   );
