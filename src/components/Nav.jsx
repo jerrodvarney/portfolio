@@ -2,9 +2,6 @@ import React from 'react';
 
 // need to build in more logic, revisit.
 const changeNavSelect = (event) => {
-  const prevSelect = document.querySelectorAll('.nav-select');
-  prevSelect[0].classList.remove('nav-select');
-
   const closest = event.target.closest('.nav-link');
   closest.classList.add('nav-select');
 };
@@ -12,15 +9,15 @@ const changeNavSelect = (event) => {
 export default function Nav() {
   return (
     <div id="nav">
-      <a href="#about" className="nav-link nav-select" onClick={changeNavSelect}>
+      <a id="about-nav" href="#about" className="nav-link nav-select" onClick={changeNavSelect}>
         <span className="nav-line" />
         <span className="nav-text">ABOUT</span>
       </a>
-      <a href="#projects" className="nav-link" onClick={changeNavSelect}>
+      <a id="projects-nav" href="#projects" className="nav-link" onClick={changeNavSelect}>
         <span className="nav-line" />
         <span className="nav-text">PROJECTS</span>
       </a>
-      <a href="#experience" className="nav-link" onClick={changeNavSelect}>
+      <a id="experience-nav" href="#experience" className="nav-link" onClick={changeNavSelect}>
         <span className="nav-line" />
         <span className="nav-text">EXPERIENCE</span>
       </a>

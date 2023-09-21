@@ -1,7 +1,4 @@
 export default {
-  about: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper libero nec neque volutpat, id tristique ante blandit. Fusce dignissim erat vitae augue interdum vestibulum. Pellentesque vel nunc vel purus tristique eleifend.', 'In facilisis eros vel quam semper, sed egestas erat tincidunt. Donec bibendum sapien eu urna dapibus feugiat. Praesent et enim eget nulla volutpat sagittis a eget turpis. Sed auctor augue nec justo bibendum, nec sodales ligula tempor.', 'In hac habitasse platea dictumst. Curabitur congue nisl vel justo tincidunt bibendum. Integer nec rhoncus urna. Curabitur non malesuada urna.',
-  ],
   projects: [
     {
       imageURL: 'https://user-images.githubusercontent.com/116389520/218281801-8086f80b-8134-4d37-ba6e-0f6f936bba89.jpg',
@@ -31,7 +28,7 @@ export default {
     {
       startDate: '2022',
       endDate: 'APR 2023',
-      title: 'Software Engineering Student',
+      title: 'Student',
       company: 'Hack Reactor',
       companySite: 'https://www.galvanize.com/hack-reactor/intermediate/full-time-bootcamp/#overview',
       description: '12-week advanced software engineering immersive program with 1000+ hours of coding in an AGILE environment.',
@@ -41,7 +38,7 @@ export default {
       startDate: '2020',
       endDate: 'NOV 2022',
       title: 'Web Developer',
-      company: 'Peak Performance Partners',
+      company: '3-Peak',
       companySite: 'https://www.3-peak.com/',
       description: 'Built custom WordPress sites using Elementor, JavaScript, and other front end technologies. Collaborated closely with clients to meet specific needs, ensuring tailored web solutions. Efficiently managed projects and met deadlines.',
       technologies: ['Wordpress', 'Elementor', 'Javascript', 'HTML', 'CSS'],

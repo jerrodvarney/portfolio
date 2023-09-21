@@ -273,9 +273,21 @@ body {
 #about {
 	display: flex;
 	flex-direction: column;
+	font-weight: 300;
 	gap: 1rem;
+	line-height: 1.6;
 	margin-bottom: 9rem;
 	scroll-margin-top: 6rem;
+
+	a {
+		color: var(--highlight-color);
+		font-weight: 400;
+		text-decoration: none;
+
+		&:hover {
+			color: var(--color-pop);
+		}
+	}
 }
 
 #projects,
