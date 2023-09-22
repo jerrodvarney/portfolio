@@ -32,6 +32,7 @@ export default function App() {
 
   useEffect(() => {
     window.addEventListener('scroll', updateNavLink);
+
     return () => {
       window.removeEventListener('scroll', updateNavLink);
     };
