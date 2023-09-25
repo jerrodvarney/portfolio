@@ -11,16 +11,17 @@ export default function About() {
         's 12 week immersive program where I devoted 12 hour days, 6 days a week to learning and honing my craft.
       </p>
       <p>
-        Since then I've continued my self-teaching path and am now working on learning C++ so that I can build more robust and efficient programs (and likely take a dip into game development)! Aside from that, I'm working on the DevOps team at an
+        Since then, I've continued my self-teaching path and am now working on learning C and C++, PHP, and pursuing my associate level AWS Developer certification! Aside from that, I just finished an internship on the DevOps team at an
         {' '}
         <a href="https://www.asteralabs.com/" target="_blank" rel="noreferrer">
           awesome company
         </a>
         {' '}
-        and building a companion application for one of my
+        and am also building a companion application for one of my
         {' '}
         <a href="https://restorationgames.com/product-tag/unmatched/" target="_blank" rel="noreferrer">favorite board games</a>
-        .
+        {' '}
+        using React Native.
       </p>
       <p>
         When I'm not behind the computer, you can probably find me mountain biking, gaming with friends, spending time with my wife and daughter, or eating tasty sushi!
