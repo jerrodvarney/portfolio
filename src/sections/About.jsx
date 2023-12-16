@@ -11,7 +11,7 @@ export default function About() {
         's 12 week immersive program where I devoted 12 hour days, 6 days a week to learning and honing my craft.
       </p>
       <p>
-        Since then, I've continued my self-teaching path and am now working on learning C and C++, PHP, and pursuing my associate level AWS Developer certification! Aside from that, I just finished an internship on the DevOps team at an
+        Since then, I've continued my self-teaching path and am now working on learning C++ and pursuing my associate level AWS Developer certification! Aside from that, I just finished an internship on the DevOps team at an
         {' '}
         <a href="https://www.asteralabs.com/" target="_blank" rel="noreferrer">
           awesome company
